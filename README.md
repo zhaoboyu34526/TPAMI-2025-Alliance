@@ -6,7 +6,7 @@
 
 ---
 
-## Abstract
+## 🧩 Abstract
 
 **Frequency-domain analysis** reveals intrinsic image patterns that are difficult to observe from raw pixels, while effectively reducing redundant spatial and spectral information. Although recent **Remote Sensing Foundation Models (RSFMs)** have advanced spatial–spectral feature learning, they often fail to fully exploit **frequency characteristics** that encode hidden structural information. Moreover, existing frequency-aware models tend to lose semantic alignment with the original image content, causing performance degradation in downstream tasks.
 
@@ -17,3 +17,11 @@ To overcome these issues, we propose **Alliance**, an *All-in-One Spectral–Spa
 3. **Frequency-Aware Embedding** — Incorporates frequency-aware *Cls token* and *mask token* initialization for fine-grained modeling of diverse frequency bands.
 
 Additionally, we introduce the **Yellow River Dataset**, a large-scale multi-temporal remote sensing benchmark designed for cross-domain evaluation and foundation model generalizability assessment. Extensive experiments across six downstream tasks validate that Alliance achieves **state-of-the-art performance** and demonstrates strong cross-domain transferability.
+
+---
+
+## 🧠 Framework Overview
+
+<p align="center">
+  <img src="./Frame.jpg" width="80%">
+</p>
